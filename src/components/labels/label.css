@@ -1,0 +1,23 @@
+.labelWrapper{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    margin-top: 14px;
+    .add{
+        border: 1px solid #cccc;
+        border-radius: 5px;
+    }
+    .listitem{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        .listitembutton{
+            display: flex;
+            width: 100%;
+            .text{
+                padding-left: 0;
+            }
+        }
+    }
+}

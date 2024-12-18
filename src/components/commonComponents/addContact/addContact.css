@@ -1,0 +1,16 @@
+.addContactWrapper {
+    display: flex;
+    padding: 20px;
+    
+    .fields{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+
+        .input {
+            width: 100%;
+            height: 53px;
+        }
+    }
+}

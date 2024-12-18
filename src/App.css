@@ -1,0 +1,45 @@
+
+
+#root {
+  max-width: 480px;
+  /* height: 100%; */
+  margin: 0 auto;
+  padding: 2rem;
+  /* text-align: center; */
+  /* display: flex; */
+  justify-content: center;
+  overflow: hidden;
+}
+
+.container {
+    height: 100%;
+    max-width: 400px;
+    max-height: 800px;
+    display: flex;
+    flex-direction: column; 
+    border:1px solid #ccc;
+    border-radius: 5px;
+    padding: 16px;
+    .header {
+        display: flex;
+        border-bottom: 1px solid #ccc;
+        padding:8px;
+    }
+    .contactsRoot{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 400px;
+        /* overflow: scroll; */
+        .search{
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+            padding: 5px;
+            align-items: center;
+        }
+        .text{
+            text-transform: capitalize;
+        }
+    }
+}
